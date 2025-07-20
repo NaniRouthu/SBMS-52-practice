@@ -1,0 +1,49 @@
+package in.ashokit.beans;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.util.List;
+
+import in.ashokit.beans.Dto.Bookdto;
+import in.ashokit.beans.Excel.ExcelGenerator;
+
+public class BookService {
+
+	private BookDao bookDao;
+	private ExcelGenerator excelGenerator;
+
+	public BookService(BookDao bookDao, ExcelGenerator excelGenerator) {
+		this.bookDao = bookDao;
+		this.excelGenerator = excelGenerator;
+	}
+	
+	public void getBooks() {
+		List<Bookdto> books = bookDao.getBooks();
+
+		books.forEach(book -> {
+			System.out.println(book);// toString() method
+		});
+	}
+
+	public void storeBookData() throws Exception {
+
+		File f = new File("book.txt");
+		FileReader fr = new FileReader(f);
+		BufferedReader br = new BufferedReader(fr);
+		String line = br.readLine();
+		while (line != null) {
+			String[] data = line.split(",");
+			Integer bid = Integer.parseInt(data[0]);
+			String bname = data[1];
+			Double bprice = Double.parseDouble(data[2]);
+
+			bookDao.saveBook(bid, bname, bprice);
+
+			line = br.readLine();
+		}
+
+		System.out.println("Books insertd");
+		br.close();
+	}
+}

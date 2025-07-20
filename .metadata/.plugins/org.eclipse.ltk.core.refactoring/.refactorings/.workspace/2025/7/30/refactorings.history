@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 20 resources" deleteContents="true" description="Delete 20 resources" element1="/01_Spring_app" element10="/13_spring_boot_pdfGenerator" element11="/14_Data_Jpa_Ops" element12="/15_JpaRepository" element13="/16_JpaRepository" element14="/16_LOGGING_JRTP28" element15="/DateUtils" element16="/first_sbms" element17="/RefelectionApi" element18="/springboot_1" element19="/SPRINGBOOT_IO" element2="/02_Spring_IOC_DI_App" element20="/SpringLifeCycle" element3="/03_Spring_IOC_SI_APP" element4="/04_Spring_IOC_DI_App" element5="/05_spring_ioc_di" element6="/08_Spring_jdbc_App" element7="/09_spring_jdbc_excelgenerator" element8="/10_springSecurity_demo" element9="/12_spring_Oath2" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="20" stamp="1752977557027"/>
+</session>

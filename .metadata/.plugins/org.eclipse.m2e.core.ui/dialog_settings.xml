@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\SBMS\workspace\01_SPRING_APP"/>
+			<item value="C:\SBMS\workspace"/>
+			<item value="C:\SBMS\workspace\08_Spring_jdbc_App\src\main\java\in\ashokit\beans\BookService.java"/>
+			<item value="C:\SBMS\workspace\DateUtils"/>
+			<item value="C:\SBMS\workspace\first_sbms\pom.xml"/>
+			<item value="C:\SBMS\workspace\01_Spring_app"/>
+			<item value="C:\SBMS\workspace\02_Spring_IOC_DI_App\src\main\resources\Spring-Beans.xml"/>
+			<item value="C:\SBMS\workspace\01_Spring_app\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="in.ashokit"/>
+		</list>
+		<list key="name">
+			<item value="01_SPRING_APP"/>
+			<item value="MAVEN_PROJ_1"/>
+		</list>
+		<list key="artifactId">
+			<item value="02_SPRING_APP"/>
+			<item value="01_SPRING_APP"/>
+			<item value="MAVEN_PROJ_1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\SBMS\workspace\practice springboot\SPRINGBOOT_IO\SPRINGBOOT_IO"/>
+			<item value="C:\SBMS\workspace\SpringBoot_01"/>
+			<item value="C:\SBMS\workspace\first_sbms"/>
+			<item value="C:\SBMS\workspace\SpringBoot_JWT_App"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
