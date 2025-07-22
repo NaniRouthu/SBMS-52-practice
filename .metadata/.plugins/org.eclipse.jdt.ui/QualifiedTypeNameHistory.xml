@@ -11,7 +11,6 @@
     <fullyQualifiedTypeName name="com.google.protobuf.compiler.PluginProtos.CodeGeneratorResponse.File"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="in.ashokit.beans.BookService"/>
     <fullyQualifiedTypeName name="java.net.http.HttpHeaders"/>
     <fullyQualifiedTypeName name="org.springframework.security.config.Customizer"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpHeaders"/>
@@ -44,4 +43,6 @@
     <fullyQualifiedTypeName name="in.ashokit.beans.DiselEngine"/>
     <fullyQualifiedTypeName name="java.util.Base64"/>
     <fullyQualifiedTypeName name="in.ashokit.beans.UserService"/>
+    <fullyQualifiedTypeName name="in.ashokit.beans.Motor"/>
+    <fullyQualifiedTypeName name="in.ashokit.beans.BookService"/>
 </qualifiedTypeNameHistroy>

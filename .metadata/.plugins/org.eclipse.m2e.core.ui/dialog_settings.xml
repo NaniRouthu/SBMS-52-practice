@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\SBMS\workspace\JAVA_SINGLETON_APP_04\src\in\ashokit\Test.java"/>
 			<item value="C:\SBMS\workspace\01_SPRING_APP"/>
 			<item value="C:\SBMS\workspace"/>
 			<item value="C:\SBMS\workspace\08_Spring_jdbc_App\src\main\java\in\ashokit\beans\BookService.java"/>
@@ -62,6 +63,8 @@
 			<item value="MAVEN_PROJ_1"/>
 		</list>
 		<list key="artifactId">
+			<item value="04_Spring_Jdbc_App"/>
+			<item value="03_Bean_LifeCycle_App"/>
 			<item value="02_SPRING_APP"/>
 			<item value="01_SPRING_APP"/>
 			<item value="MAVEN_PROJ_1"/>
